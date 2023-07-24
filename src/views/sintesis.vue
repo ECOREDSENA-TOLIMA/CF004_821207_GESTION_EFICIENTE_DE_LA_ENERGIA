@@ -3,11 +3,11 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p Colombia establece normas para la generación, interconexión, trasmisión, distribución y comercialización de electricidad en el territorio nacional, así como reglamentaciones para la inspección de las instalaciones eléctricas, todo esto regulado bajo parámetros dictados por el Ministerio de Minas y Energía. 
+    p.mb-5 En el siguiente mapa conceptual, podrá apreciar los principales conceptos que regulan estas acciones: 
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-12.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto

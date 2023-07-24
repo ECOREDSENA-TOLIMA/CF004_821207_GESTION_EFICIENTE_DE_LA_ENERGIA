@@ -21,32 +21,27 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Normatividad eléctrica',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Reglamento Técnico de Instalaciones Eléctricas - RETIE',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
               'Reglamento Técnico de Iluminación y Alumbrado Público - RETILAP',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Código Eléctrico Colombiano NTC 2050',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo:
               'Lineamientos de SST para las actividades en el sector eléctrico (Resolución 5018 de 2019)',
@@ -56,19 +51,16 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Caracterización del sector eléctrico colombiano',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Organización del sector',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Agentes del mercado de la energía eléctrica',
             hash: 't_2_2',
@@ -77,25 +69,21 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Sistemas de Puesta a Tierra - SPAT',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'SPAT tipo TT',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'SPAT tipo TN',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.3',
             titulo: 'SPAT tipo IT',
             hash: 't_3_3',
@@ -104,32 +92,27 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Conformidad de las instalaciones eléctricas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Certificados de conformidad de producto',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo:
               'Demostración de conformidad de las instalaciones eléctricas',
             hash: 't_4_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.3',
             titulo: 'Dictamen de inspección',
             hash: 't_4_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.4',
             titulo: 'Acciones de vigilancia y control',
             hash: 't_4_4',
@@ -173,7 +156,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_04_821207.pdf',
+        download: 'downloads/CFA_04.pdf',
       },
       {
         icono: 'far fa-registered',
@@ -184,135 +167,121 @@ export default {
   },
   complementario: [
     {
-      tema:
-        'CENS Grupo EPM. (2015). Clases de Redes Eléctricas - Aprende con CENS [Video]. Youtube.',
+      tema: 'Normatividad eléctrica',
       referencia:
-        'CENS Grupo EPM. (2015). Clases de Redes Eléctricas - Aprende con CENS [Video]. Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=tlQNRJxpvxU&t=63s',
-    },
-    {
-      tema:
-        'Comisión CREG. (2014). Conoce la factura de energía eléctrica [Video]. Youtube.',
-      referencia:
-        'Comisión CREG. (2014). Conoce la factura de energía eléctrica [Video]. Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=LriXlAKUd9A&t=25s',
-    },
-    {
-      tema: 'Comisión de Regulación de Energía y Gas - CREG (2021). Funciones.',
-      referencia:
-        'Comisión de Regulación de Energía y Gas - CREG (2021). Funciones.',
-      tipo: 'Página web de la Comisión de Regulación de Energía y Gas.',
-      link: 'https://www.creg.gov.co/creg/quienes-somos/funciones',
-    },
-    {
-      tema:
-        'Comité Asesor de Comercialización del sector eléctrico. Quiénes somos.',
-      referencia:
-        'Comité Asesor de Comercialización del sector eléctrico. Quiénes somos.',
-      tipo:
-        'Página web del Comité Asesor de Comercialización del sector eléctrico.',
-      link: 'http://www.cac.org.co/2016/html/quienes.html',
-    },
-    {
-      tema:
-        'Consejo Nacional de Operación del sector Eléctrico (2016). Quienes somos.',
-      referencia:
-        'Consejo Nacional de Operación del sector Eléctrico (2016). Quienes somos.',
-      tipo:
-        'Página web del Consejo Nacional de Operación del sector Eléctrico.',
-      link: 'https://www.cno.org.co/content/quienes-somos',
-    },
-    {
-      tema:
-        'Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC. (1998). Norma Técnica Colombiana NTC 2050 Código Eléctrico Colombiano. Recuperado el 6 de julio del 2021 de la base de datos biblioteca SENA.',
-      referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC. (1998). Norma Técnica Colombiana NTC 2050 Código Eléctrico Colombiano. Recuperado el 6 de julio del 2021 de la base de datos biblioteca SENA.',
-      tipo: 'Norma Técnica Colombiana Código Eléctrico Colombiano.',
+        'Instituto Colombiano de Normas Técnicas y Certificación - ICONTEC. (1998). Norma Técnica Colombiana NTC 2050 Código Eléctrico Colombiano.',
+      tipo: 'Norma Técnica Colombiana',
       link:
-        'https://login.bdigital.sena.edu.co/login?url=https://e-collection.icontec.org/pdfview/viewer.aspx?locale=es-419&Q=C195B9DF4FA291EC9E5470A4AD574D93312408EA304CDFA9&Req=',
+        'https://www.icontec.org/lanzamiento-codigo-electrico-colombiano-ntc-2050/',
     },
     {
-      tema: 'ISAGEN. (2012). Cómo se genera la energía [Video]. Youtube.',
-      referencia: 'ISAGEN. (2012). Cómo se genera la energía [Video]. Youtube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=YWEXLSjaYf0&t=178s',
-    },
-    {
-      tema: 'Ministerio de Minas y Energía de Colombia (2021). Funciones.',
+      tema: 'Normatividad eléctrica',
       referencia:
-        'Ministerio de Minas y Energía de Colombia (2021). Funciones.',
-      tipo: 'Página web del Ministerio de Minas y Energía de Colombia.',
-      link: 'https://www.minenergia.gov.co/funciones-y-deberes',
-    },
-    {
-      tema:
-        'Resolución Número 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento Técnico de Iluminación y Alumbrado Público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009.',
-      referencia:
-        'Resolución Número 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento Técnico de Iluminación y Alumbrado Público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009.',
-      tipo:
-        'Resolución Reglamento Técnico de Iluminación y Alumbrado Público RETILAP.',
-      link: 'downloads/RES180540_2010.pdf',
-    },
-    {
-      tema:
-        'Resolución Número 5018 de 2019 y anexo. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el Trabajo en los procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019.',
-      referencia:
-        'Resolución Número 5018 de 2019 y anexo. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el Trabajo en los procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019.',
-      tipo: 'Resolución de Lineamientos en Seguridad y Salud en el Trabajo.',
+        'Ministerio de Minas y Energía de Colombia. Resolución Número 90708 de 2013 y anexos. Por la cual se expide el Reglamento Técnico de Instalaciones Eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de Generación, Transmisión, Transformación, Distribución y Utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
+      tipo: 'Documento legal',
       link:
-        'downloads/Resolucion_5018_del_20112019_SST_en_energia_electrica.pdf',
+        'https://www.minenergia.gov.co/es/misional/energia-electrica-2/reglamentos-tecnicos/reglamento-t%C3%A9cnico-de-instalaciones-el%C3%A9ctricas-retie/',
     },
     {
-      tema:
-        'Resolución Número 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento Técnico de Instalaciones Eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de Generación, Transmisión, Transformación, Distribución y Utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
+      tema: 'Normatividad eléctrica',
       referencia:
-        'Resolución Número 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento Técnico de Instalaciones Eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de Generación, Transmisión, Transformación, Distribución y Utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
-      tipo: 'Resolución Reglamento Técnico de Instalaciones Eléctricas RETIE.',
+        'Ministerio de Minas y Energía de Colombia. Resolución Número 181331 de 2009 y anexo. Por la cual se expide el Reglamento Técnico de Iluminación y Alumbrado Público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009.',
+      tipo: 'Documento legal',
       link:
-        'downloads/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf',
+        'https://www.redjurista.com/Documents/resolucion_180540_de_2010_ministerio_de_minas_y_energia.aspx#/',
     },
     {
-      tema:
-        'Servicio Nacional de Aprendizaje - SENA. (2013). Caracterización del sector eléctrico colombiano. Recuperado el 6 de julio del 2021 del repositorio SENA.',
+      tema: 'Caracterización del sector eléctrico colombiano',
       referencia:
         'Servicio Nacional de Aprendizaje - SENA. (2013). Caracterización del sector eléctrico colombiano. Recuperado el 6 de julio del 2021 del repositorio SENA.',
-      tipo: 'Publicación Oficial.',
+      tipo: 'Publicación Oficial',
       link: 'https://hdl.handle.net/11404/2138',
     },
     {
-      tema:
-        'Superintendencia de Industria y Comercio (2021). Objetivos y funciones.',
+      tema: 'Organización del sector',
       referencia:
-        'Superintendencia de Industria y Comercio (2021). Objetivos y funciones.',
-      tipo: 'Página web de la Superintendencia de Industria y Comercio.',
-      link: 'https://www.sic.gov.co/objetivos-y-funciones',
+        'Resolución Número 5018 de 2019 y anexo. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el Trabajo en los procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019.',
+      tipo: 'Documento legal',
+      link:
+        'https://camacol.co/sites/default/files/descargables/Resoluci%C3%B3n%205018%20del%2020112019%20SST%20en%20energ%C3%ADa%20el%C3%A9ctrica_0.pdf',
     },
     {
-      tema:
-        'Superintendencia de Servicios Públicos Domiciliarios (2021). Funciones.',
+      tema: 'Organización del sector',
+      referencia:
+        'Ministerio de Minas y Energía de Colombia (2021). Funciones.',
+      tipo: 'Página web',
+      link:
+        'https://www.minenergia.gov.co/es/ministerio/estructura-organizacional/funciones/#:~:text=Formular%2C%20adoptar%2C%20dirigir%20y%20coordinar,de%20minerales%2C%20hidrocarburos%20y%20biocombustibles',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'Unidad de Planeación Minero Energética - UPME (2021). Funciones y deberes.',
+      tipo: 'Página web',
+      link:
+        'https://www1.upme.gov.co/Entornoinstitucional/Documents/portafolio_de_servicios_upme.pdf',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'Comisión de Regulación de Energía y Gas - CREG (2021). Funciones.',
+      tipo: 'Página web',
+      link: 'https://creg.gov.co/publicaciones/7812/funciones/',
+    },
+    {
+      tema: 'Organización del sector',
       referencia:
         'Superintendencia de Servicios Públicos Domiciliarios (2021). Funciones.',
-      tipo:
-        'Página web de la Superintendencia de Servicios Públicos Domiciliarios.',
+      tipo: 'Página web',
       link:
         'https://www.superservicios.gov.co/nuestra-entidad/quienes-somos/funciones',
     },
     {
-      tema:
-        'Unidad de Planeación Minero Energética - UPME (2021). Funciones y deberes.',
+      tema: 'Organización del sector',
       referencia:
-        'Unidad de Planeación Minero Energética - UPME (2021). Funciones y deberes.',
-      tipo: 'Página web de la Unidad de Planeación Minero Energética.',
-      link:
-        'https://www1.upme.gov.co/Entornoinstitucional/NuestraEntidad/Paginas/Funciones-y-deberes.aspx',
+        'Superintendencia de Industria y Comercio (2021). Objetivos y funciones.',
+      tipo: 'Página web',
+      link: 'https://www.sic.gov.co/objetivos-y-funciones',
     },
     {
-      tema: 'XM (2021). Qué hacemos.',
+      tema: 'Organización del sector',
       referencia: 'XM (2021). Qué hacemos.',
-      tipo: 'Página web de XM.',
-      link: 'https://www.xm.com.co/nuestra-empresa/nosotros/que-hacemos',
+      tipo: 'Página web',
+      link: 'https://www.xm.com.co/nuestra-empresa/nosotros/quienes-somos',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'Consejo Nacional de Operación del sector Eléctrico (2016). Quienes somos.',
+      tipo: 'Página web',
+      link: 'https://www.cno.org.co/content/quienes-somos',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'Comité Asesor de Comercialización del sector eléctrico. Quiénes somos.',
+      tipo: 'Página web',
+      link: 'http://www.cac.org.co/2016/html/quienes.html',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia: 'ISAGEN. (2012). Cómo se genera la energía [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YWEXLSjaYf0',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'CENS Grupo EPM. (2015). Clases de Redes Eléctricas - Aprende con CENS [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=tlQNRJxpvxU',
+    },
+    {
+      tema: 'Organización del sector',
+      referencia:
+        'Comisión CREG. (2014). Conoce la factura de energía eléctrica [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LriXlAKUd9A',
     },
   ],
   glosario: [
@@ -407,7 +376,7 @@ export default {
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje - SENA. (2013). Caracterización del sector eléctrico colombiano. Recuperado el 6 de julio del 2021 del repositorio SENA.',
+        'Servicio Nacional de Aprendizaje - SENA. (2013). Caracterización del sector eléctrico colombiano.',
     },
   ],
   creditos: [
@@ -420,9 +389,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -430,9 +399,35 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Carlos Javier González Cuevas',
+          cargo: 'Experto Técnico',
+          centro:
+            'Regional Distrito Capital - Centro Electricidad Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Marlon Augusto Villamizar Morales',
+          cargo: 'Experto Técnico',
+          centro: 'Global Green Growth Institute (GGGI)',
+        },
+        {
+          nombre: 'Leidy Carolina Arias Aguirre',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'María Inés Machado López',
+          cargo: 'Metodóloga',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -440,19 +435,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Yobani Penagos Mora',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Sebastián Trujillo Afanador',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Francisco Javier Vásquez Suarez',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -460,14 +470,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Jorge Bustos Gómez',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

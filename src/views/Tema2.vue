@@ -10,19 +10,21 @@
     figure.mb-5
       img(src='@/assets/curso/tema2/img01.png')  
 
-    p.mb-4 La electricidad es parte fundamental en nuestro estilo de vida. Prácticamente en la mayoría de las actividades que realizamos independientemente de nuestra edad y ocupación, necesitamos de este recurso tan valioso. Se ha preguntado alguna vez, ¿cómo llega a nuestros hogares la energía eléctrica que usamos para encender los teléfonos móviles, el computador, la nevera y los demás dispositivos eléctricos y electrónicos? Aunque parezca sencillo, todo hace parte de un proceso que ha tomado varios años en implementar y mejorar, y que involucra al Gobierno Nacional, a muchas entidades públicas y privadas, y en general a profesionales que se han unido para que podamos tener disponible este recurso con solo conectar un enchufe al tomacorriente y oprimir un botón.
+    p.mb-4 La electricidad es parte fundamental en nuestro estilo de vida. Prácticamente en la mayoría de las actividades que realizamos, independientemente de nuestra edad y ocupación, necesitamos de este recurso tan valioso. Se ha preguntado alguna vez, ¿cómo llega a nuestros hogares la energía eléctrica que usamos para encender los teléfonos móviles, el computador, la nevera y los demás dispositivos eléctricos y electrónicos? Aunque parezca sencillo, todo hace parte de un proceso que ha tomado varios años en implementar y mejorar, y que involucra al Gobierno Nacional, a muchas entidades públicas y privadas, y en general a profesionales que se han unido para que podamos tener disponible este recurso con solo conectar un enchufe al tomacorriente y oprimir un botón.
     p.mb-5 A continuación, mostraremos cómo está organizado el sector eléctrico en Colombia y posteriormente, entraremos en detalle de los agentes del mercado de la electricidad.
         
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.color-acento-botones
       h2 2.1 Organización del sector
 
-    p.mb-4 La Constitución Política de Colombia, como ley máxima del Estado, establece en el artículo 365 que los servicios públicos (agua, electricidad, gas) hacen parte de la finalidad social del Estado y por lo tanto su prestación y realización eficiente deben ser asegurados a todos los habitantes del territorio nacional.
+    p.mb-4 La Constitución Política de Colombia, como ley máxima del Estado, establece en el artículo 365 que los servicios públicos (agua, electricidad, gas) hacen parte de la finalidad social del Estado y, por lo tanto, su prestación y realización eficiente deben ser asegurados a todos los habitantes del territorio nacional.
     p.mb-5 En respuesta a este mandato constitucional, el Estado colombiano promulgó la Ley 142 de servicios públicos domiciliarios y la Ley 143, a través de las cuales se separaron las actividades del sector eléctrico y se adoptó la estructura organizacional mostrada en la siguiente figura.
 
-    figure.mb-5
+    .mb-5
       div.BorTit.mb-3.ms-3
-        p.mb-0 <b>Figura 1. <i>Estructura organizacional del sector eléctrico colombiano</i>.</b> Elaboración propia. Tomada de ejemplo Figura 1.<br><i>documento SENA. Caracterización del sector eléctrico colombiano</i>.
-      img(src='@/assets/curso/tema2/img02.svg')  
+        p.mb-0 <b>Figura 1.</b> <i>Estructura organizacional del sector eléctrico colombiano</i>
+      figure
+        img(src='@/assets/curso/tema2/img02.svg')  
+        figcaption Nota. Adaptada de documento SENA. Caracterización del sector eléctrico colombiano. 
 
     p.mb-4 A continuación, se relaciona las diferentes entidades colombianas que hacen parte de esta estructura organizacional: 
     
@@ -37,7 +39,7 @@
           h4 Ministerio de Minas y Energía (MME)
           p.mb-4 Una de sus funciones principales es la formulación, adopción e implementación de la política pública del sector administrativo de minas y energía. En el siguiente enlace podrás encontrar las funciones completas.
           p.mb-0 
-            a(href="https://www.minenergia.gov.co/funciones-y-deberes" target="_blank") https://www.minenergia.gov.co/funciones-y-deberes 
+            a(href="https://www.minenergia.gov.co/es/ministerio/estructura-organizacional/funciones/#:~:text=Formular%2C adoptar%2C dirigir y coordinar,de minerales%2C hidrocarburos y biocombustibles" target="_blank") https://www.minenergia.gov.co/es/ministerio/estructura-organizacional/funciones/#:~:text=Formular%2C adoptar%2C dirigir y coordinar,de minerales%2C hidrocarburos y biocombustibles 
 
     hr
 
@@ -50,7 +52,7 @@
           h4.texto Unidad de Planeación Minero Energética (UPME)
           p.texto.mb-4 Esta entidad está adscrita al MME y dentro de sus funciones principales está la planeación de manera coordinada con las entidades públicas y privadas del sector minero energético, para el avance y adaptación de los recursos del sector a las necesidades del país. En el siguiente enlace podrás encontrar las funciones completas.
           p.texto.mb-0 
-            a(href="https://www1.upme.gov.co/Entornoinstitucional/NuestraEntidad/Paginas/Funciones-y-deberes.aspx" target="_blank") https://www1.upme.gov.co/Entornoinstitucional/NuestraEntidad/Paginas/Funciones-y-deberes.aspx
+            a(href="https://www1.upme.gov.co/Entornoinstitucional/Documents/portafolio_de_servicios_upme.pdf" target="_blank") https://www1.upme.gov.co/Entornoinstitucional/Documents/portafolio_de_servicios_upme.pdf
 
     hr
 
@@ -63,7 +65,7 @@
           h4 Comisión de Regulación de Energía y Gas (CREG)
           p.mb-4 En una institución de carácter técnico que tiene como uno de los objetivos principales alcanzar la mayor cobertura a la población del país de los servicios de electricidad, gas natural y gas licuado de petróleo. Lo anterior garantizando la calidad al menor costo posible para el usuario, de tal manera que permita también un beneficio para las empresas que prestan este tipo de servicios. En el siguiente enlace podrás encontrar las funciones completas.
           p.mb-0 
-            a(href="https://www.creg.gov.co/creg/quienes-somos/funciones" target="_blank") https://www.creg.gov.co/creg/quienes-somos/funciones
+            a(href="https://creg.gov.co/publicaciones/7812/funciones/" target="_blank") https://creg.gov.co/publicaciones/7812/funciones/
 
     hr
 
@@ -154,7 +156,7 @@
 
     hr
 
-    #t_2_2.titulo-segundo
+    #t_2_2.titulo-segundo.color-acento-botones
       h2 2.2 Agentes del mercado de la energía eléctrica
 
     .row.mb-4
@@ -165,17 +167,17 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img13.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Seguramente ha escuchado hablar del término Mercado. Normalmente cuando hablamos de mercado nos imaginamos un lugar con acceso público o puestos de venta donde podemos comprar todo tipo de productos. Pues bien, para la energía eléctrica existe un mercado en donde se hacen todas las compras y ventas de energía. La gran diferencia es que para la energía existen mayores regulaciones y controles al ser un bien de primera necesidad y también que el acceso a este mercado no es público, sino que se realiza a través de otras entidades. Es decir, para comprar la energía en nuestros hogares no es posible que vayamos al mercado de energía directamente, sino que debemos comprarla a un agente que en este caso se llama comercializador. Para entender mejor cómo funcionan los agentes en el mercado de energía eléctrica, miraremos con más detalle cada uno de ellos y sus funciones principales.
+            p.mb-0 Seguramente ha escuchado hablar del término Mercado. Normalmente, cuando hablamos de mercado nos imaginamos un lugar con acceso público o puestos de venta donde podemos comprar todo tipo de productos. Pues bien, para la energía eléctrica existe un mercado en donde se hacen todas las compras y ventas de energía. La gran diferencia es que para la energía existen mayores regulaciones y controles al ser un bien de primera necesidad y también que el acceso a este mercado no es público, sino que se realiza a través de otras entidades. Es decir, para comprar la energía en nuestros hogares no es posible que vayamos al mercado de energía directamente, sino que debemos comprarla a un agente que en este caso se llama comercializador. Para entender mejor cómo funcionan los agentes en el mercado de energía eléctrica, miraremos con más detalle cada uno de ellos y sus funciones principales.
       .col-lg-1
 
     .row.mb-5
       .col-lg-4
       .col-lg-7        
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=YWEXLSjaYf0&t=178se" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=YWEXLSjaYf0" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p <b>Enlace web.</b> En el siguiente vídeo descubrirá a manera de introducción los procesos involucrados para que la electricidad llegue a su hogar
+              p <b>Enlace web.</b> En el siguiente vídeo descubrirá a manera de introducción los procesos involucrados para que la electricidad llegue a su hogar.
    
     TabsA.color-acento-botones.mb-5    
       .tarjeta.t2_div3.p-4(titulo="Generación")
@@ -183,7 +185,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema2/img14.png') 
         p.mb-4 Los agentes generadores son aquellos que desarrollan la actividad de producción de energía eléctrica, que puede ser transada en la bolsa o mediante contratos bilaterales con otros generadores, comercializadores o directamente con grandes usuarios (usuarios no regulados).
-        p.mb-4 La generación de energía eléctrica del país se encuentra concentrada principalmente en tres regiones: Antioquia, con una capacidad instalada soportada principalmente por recursos hidráulicos; Centro, también mayoritariamente por recursos hidráulicos y en segundo lugar generación con carbón; y finalmente la Costa Atlántica, donde la electricidad se produce en su mayor parte a partir de gas natural.
+        p.mb-4 La generación de energía eléctrica del país se encuentra concentrada principalmente en tres regiones: Antioquia, con una capacidad instalada soportada principalmente por recursos hidráulicos; Centro, también mayoritariamente por recursos hidráulicos y en segundo lugar generación con carbón; y en tercer lugar la Costa Atlántica donde la electricidad se produce en su mayor parte a partir de gas natural.
         p.mb-4 La estructura organizacional básica de las empresas de generación está conformada por una junta directiva, una gerencia general de la que dependen una subgerencia asociada directamente a la producción de energía.
       
       .tarjeta.t2_div3.p-4(titulo="Transmisión")
@@ -226,11 +228,11 @@
         p.mb-4 Nivel 1: sistemas con tensión nominal menor a 1 kV.
 
         div.ps-5 
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=tlQNRJxpvxU&t=63s" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=tlQNRJxpvxU" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
-              p <b>Enlace web.</b> En el siguiente video podrás descubrir las diferencias entre una red de transmisión y distribución
+              p <b>Enlace web.</b> En el siguiente video podrás descubrir las diferencias entre una red de transmisión y distribución.
 
       .tarjeta.t2_div3.p-4(titulo="Comercialización")
         h4 Comercialización
@@ -267,7 +269,7 @@
                 img(src='@/assets/curso/tema2/img19.svg')
 
         div.ps-5 
-          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=LriXlAKUd9A&t=25s" target="_blank")
+          a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=LriXlAKUd9A" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto

@@ -13,7 +13,7 @@
           img(src='@/assets/curso/tema3/img01.svg')
       .col-lg-6.d-flex
         .cajon.color-acento-botones.p-5   
-          p Un Sistema de Puesta a Tierra - SPAT, es el conjunto de conductores, electrodos y compuestos químicos reductores de la resistividad volumétrica del suelo circundante al electrodo, que se instalan como medio de descarga a tierra de la energía transitoria asociada a sobretensiones provocadas en la red por impulsos atmosféricos (rayos) o por impulsos de maniobras de cierre y/o apertura de interruptores. Bajo este contexto y de acuerdo a la ley de ohm se deduce que un bajo valor de la resistencia de puesta a tierra es siempre deseable para disminuir la máxima elevación de potencial o GPR (Ground Potential Rise), en caso de circulación de corrientes de falla.
+          p Un Sistema de Puesta a Tierra - SPAT, es el conjunto de conductores, electrodos y compuestos químicos reductores de la resistividad volumétrica del suelo circundante al electrodo, que se instalan como medio de descarga a tierra de la energía transitoria asociada a sobretensiones provocadas en la red por impulsos atmosféricos (rayos) o por impulsos de maniobras de cierre y/o apertura de interruptores. Bajo este contexto y de acuerdo a la ley de Ohm, se deduce que un bajo valor de la resistencia de puesta a tierra es siempre deseable para disminuir la máxima elevación de potencial o GPR (Ground Potential Rise), en caso de circulación de corrientes de falla.
 
     .row.mb-5
       .col-lg-6.d-flex
@@ -28,7 +28,7 @@
     TabsA.color-acento-botones.mb-5    
       .tarjeta.t2_div3.p-4(titulo="Electrodo de puesta a tierra")
         h4 Electrodo de puesta a tierra
-        p.mb-5 Es un objeto conductor de material y dimensiones acorde a la tabla 15.2 del RETIE, generalmente una varilla de ⅝” de diámetro por 2,4 metros de longitud de cobre puro o de acero recubierto por una chaqueta de cobre que se entierra de manera vertical hasta que el extremo superior sobresalga 15 cm sobre el nivel del suelo.
+        p.mb-5 Es un objeto conductor de material y dimensiones acorde a la tabla 15.2 del RETIE, generalmente una varilla de  de diámetro por 2,4 metros de longitud de cobre puro o de acero recubierto por una chaqueta de cobre que se entierra de manera vertical hasta que el extremo superior sobresalga 15 cm sobre el nivel del suelo.
         .row
           .col-lg-3
           .col-lg-6
@@ -53,8 +53,8 @@
             figure
               img(src='@/assets/curso/tema3/img05.png')            
           .col-lg-2
-        p Con fines de verificación y medición de la resistencia de la puesta en tierra se instala en la parte superior de algunos electrodos del SPAT una caja cuadrada de concreto o PVC de 30 x 30 cm o una sección de tubo de gres vitrificado o PVC de 12“ de diámetro con tapa removible.
-      .tarjeta.t2_div3.p-4(titulo="Electrodo de puesta a tierra")
+        p Con fines de verificación y medición de la resistencia de la puesta en tierra se instala en la parte superior de algunos electrodos del SPAT una caja cuadrada de concreto o PVC de 30 x 30 cm o una sección de tubo de gres vitrificado o PVC de 12`` de diámetro con tapa removible.
+      .tarjeta.t2_div3.p-4(titulo="Tratamiento químico del suelo")
         h4 Tratamiento químico del suelo
         .row.mb-4
           .col-lg-2
@@ -68,12 +68,12 @@
             figure
               img(src='@/assets/curso/tema3/img07.png')            
           .col-lg-2
-        p Cuando la resistividad del terreno es muy alta la cantidad de conductor de cobre enterrado se incrementa al igual que el número de electrodos. En estos casos puede instalarse un tratamiento químico al suelo circundante a los electrodos y conductores equipotenciales del SPAT tales como sales electrolíticas o cementos conductivos con la finalidad de mejorar la resistividad del terreno.
+        p Cuando la resistividad del terreno es muy alta, la cantidad de conductor de cobre enterrado se incrementa al igual que el número de electrodos. En estos casos puede instalarse un tratamiento químico al suelo circundante, a los electrodos y conductores equipotenciales del SPAT tales como sales electrolíticas o cementos conductivos con la finalidad de mejorar la resistividad del terreno.
       .tarjeta.t2_div3.p-4(titulo="Nomenclatura")
         h4 Nomenclatura
         p De acuerdo a la nomenclatura adoptada en la norma IEC 61364-4 los tipos de sistemas de puesta a tierra se identifican mediante un código de dos o tres letras, en donde la primera especifica la forma en que el conductor neutro de la fuente se conecta a tierra (T = conectado a tierra, I = no conectado a tierra o conectado a través de una alta impedancia) y la combinación de segunda y tercera especifican el punto de conexión del conductor de protección (PE = protective earth) de las partes metálicas de los equipos (T = conectado a tierra, N-S = conectado al neutro de la fuente, N-C = conectado al neutro del equipo).
 
-    #t_3_1.titulo-segundo
+    #t_3_1.titulo-segundo.color-acento-botones
       h2 3.1 SPAT tipo TT
 
     .row.mb-5
@@ -85,7 +85,7 @@
         figure
           img(src='@/assets/curso/tema3/img08.svg')
 
-    #t_3_2.titulo-segundo
+    #t_3_2.titulo-segundo.color-acento-botones
       h2 3.2 SPAT tipo TN
 
     .row.mb-4
@@ -112,7 +112,7 @@
           img(src='@/assets/curso/tema3/img10.svg')
       .col-lg-2
 
-    #t_3_3.titulo-segundo
+    #t_3_3.titulo-segundo.color-acento-botones
       h2 3.3 SPAT tipo IT
 
     .row.mb-5
@@ -129,7 +129,7 @@
           img(src='@/assets/curso/tema3/img11.svg')
       .col-lg-2
       
-    p.mb-5.px-5.mx-5 El esquema TN-S tiene la desventaja de aumentar el riesgo de exposición a sobretensiones eléctricas, al requerir la ocurrencia de dos fallas simultáneas para que actúe la protección de sobre corriente y las ventajas de usar solo un SPAT y de ofrecer una mayor continuidad del servicio. Por estas razones es el de mayor uso en aplicaciones donde la continuidad del servicio es un factor crítico, como en instalaciones hospitalarias siempre y cuando se instale un esquema de detección de fallas a tierra y monitoreo de aislamiento.
+    p.mb-5.px-5.mx-5 El esquema TN-S tiene la desventaja de aumentar el riesgo de exposición a sobretensiones eléctricas, al requerir la ocurrencia de dos fallas simultáneas para que actúe la protección de sobre corriente y las ventajas de usar solo un SPAT y de ofrecer una mayor continuidad del servicio. Por estas razones es el de mayor uso en aplicaciones donde la continuidad del servicio es un factor crítico, como en instalaciones hospitalarias, siempre y cuando se instale un esquema de detección de fallas a tierra y monitoreo de aislamiento.
 
 </template>
 

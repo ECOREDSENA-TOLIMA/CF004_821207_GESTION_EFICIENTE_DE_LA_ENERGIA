@@ -25,7 +25,7 @@
           p.mb-0 Y como la protección de la vida es un deber del Estado consagrado en el artículo 2 de la Constitución Política de Colombia, el Ministerio de Minas y Energía como máxima autoridad en materia energética, adoptó los reglamentos técnicos orientados a garantizar la protección de la vida de las personas contra los riesgos que puedan provenir de los bienes y servicios relacionados con el sector a su cargo
       .col-lg-1
 
-    #t_1_1.titulo-segundo
+    #t_1_1.titulo-segundo.color-acento-botones
       h2 1.1  Reglamento Técnico de Instalaciones Eléctricas - RETIE
     
     p.mb-4 Es un documento donde se establecen los requisitos técnicos que deben cumplir las instalaciones eléctricas para garantizar la seguridad de las personas, de la vida tanto animal como vegetal y la preservación del medio ambiente contra los riesgos de origen eléctrico. Adicionalmente, señala las exigencias y especificaciones que garantizan la seguridad de las instalaciones eléctricas con base en su buen funcionamiento; la confiabilidad, calidad y adecuada utilización de los productos y equipos.
@@ -47,31 +47,31 @@
         figure
           img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')         
 
-      .tarjeta.t1-div1.p-3(x="38%" y="45%")        
+      .tarjeta.t1-div1.p-3(x="38%" y="45%" numero="+")        
         p <b>27.1.</b> Debido al alto número de incendios ocasionados por deficiencias en la instalación, en especial lo relacionado con dimensionamiento de conductores y protecciones, malas conexiones, daños de aislamiento de conductores y empalmes, uso de equipos, aparatos y materiales inapropiados, uso de lámparas y luminarias sin espacio para evacuación del calor, se debe dar especial atención al cumplimiento de los requisitos de instalación y de producto, y se establece el carácter de obligatorio para los capítulos 1 a 7 y 10 de la NTC 2050.
     
-      .tarjeta.t1-div1.p-3(x="46%" y="61%")        
+      .tarjeta.t1-div1.p-3(x="46%" y="61%" numero="+")        
         p <b>27.2.</b> En este numeral se establecen los regímenes de conexión a tierra aceptados, pero este asunto será desarrollado con mayor detalle en el tema 3 de este contenido.
 
-      .tarjeta.t1-div1.p-3(x="21%" y="55%")        
+      .tarjeta.t1-div1.p-3(x="21%" y="55%" numero="+")        
         p <b>27.3.</b> En este numeral se establecen los requisitos de instalación de acometidas, adicionales a los definidos en las secciones 220 y 230 de la NTC 2050,  tales como los requeridos para cruces de vía, que los conductores aéreos deben ser de tipo antifraude concéntrico o trenzado, que la regulación de tensión no supere el 3%, se prohíbe el uso de conductores a la vista o incrustados directamente en fachadas, a menos que sean de cubierta XLPE o HDPE y que no contravengan normas de planeación municipal.
 
-      .tarjeta.t1-div1.p-3(x="50%" y="20%")        
+      .tarjeta.t1-div1.p-3(x="50%" y="20%" numero="+")        
         p <b>27.4.</b> En este numeral se establecen los requisitos de protección y medida de las instalaciones para uso final.
 
-      .tarjeta.t1-div1.p-3(x="17%" y="22%")        
+      .tarjeta.t1-div1.p-3(x="17%" y="22%" numero="+")        
         p <b>27.5.</b> En este numeral se establecen los requisitos de mantenimiento y conservación de instalaciones para uso final.
 
-      .tarjeta.t1-div1.p-3(x="56.3%" y="36%")        
+      .tarjeta.t1-div1.p-3(x="56.3%" y="36%" numero="+")        
         p <b>27.6.</b> En este numeral se clasifican las instalaciones de uso final en <i><u><b>básicas, provisionales y especiales.</b></u></i>
 
-      .tarjeta.t1-div1.p-3(x="70%" y="7%")        
+      .tarjeta.t1-div1.p-3(x="70%" y="7%" numero="+")        
         p Se definen las <b>instalaciones básicas</b> (aplican capítulos 1 a 4 de la NTC 2050) como aquellas de baja complejidad y riesgo, las redes externas de baja tensión particulares y públicas. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.1
 
-      .tarjeta.t1-div1.p-3(x="69%" y="27%")        
+      .tarjeta.t1-div1.p-3(x="69%" y="27%" numero="+")
         p Se definen las <b>instalaciones provisionales</b> (aplica sección 305 de la NTC 2050) como aquellas que se construyen para suministrar el servicio de energía a un proyecto en construcción, con un tiempo de vigencia hasta la energización definitiva, la terminación de la construcción, o para el suministro temporal de energía a instalaciones transitorias como ferias o espectáculos, montajes de equipos, demoliciones y proyectos de investigación, tales como pruebas sísmicas o perforaciones exploratorias. La Condición de provisionalidad se otorgará para periodos no mayores a seis meses, prorrogables según el criterio del operador de red (OR) o quien preste el servicio, previa solicitud del usuario. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.2
 
-      .tarjeta.t1-div1.p-3(x="61.5%" y="51.5%")        
+      .tarjeta.t1-div1.p-3(x="61.5%" y="51.5%" numero="+")        
         p Se definen las <b>instalaciones especiales</b> (aplica sección 305 de la NTC 2050) como aquellas que por estar localizadas en ambientes clasificados como peligrosos o por alimentar equipos o sistemas complejos, presentan mayor probabilidad de riesgo que una instalación básica y, por tanto, requieren de medidas especiales, para mitigar o eliminar tales riesgos. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.3.1 para instalaciones en lugares clasificados como peligrosos, en el numeral 28.3.2 para instalaciones e instituciones de asistencia médica, en el numeral 28.3.3 para lugares con alta concentración de personas, en el numeral 28.3.4 a 28.3.10  para edificaciones prefabricadas, de uso agrícola, viviendas móviles, casas flotantes, equipos especiales, piscinas y sistemas solares fotovoltaicos, en el numeral 28.3.11 para sistemas contra incendio, en el numeral 28.3.12 para sistemas de emergencia, en el numeral 28.3.13 para otros sistemas de suministro, en el artículo 29 para instalaciones en minas y finalmente en el artículo 30 para instalaciones en minas subterráneas.
     .row.mb-5
       .col-lg-5
@@ -82,7 +82,7 @@
             .anexo__texto
               p <b>Enlace web.</b> Para profundizar en el tema, en el siguiente enlace podrá descargar la última versión vigente del RETIE (30 de agosto de 2013 + ajustes a 2015)
 
-    #t_1_2.titulo-segundo
+    #t_1_2.titulo-segundo.color-acento-botones
       h2 1.2  Reglamento Técnico de Iluminación y Alumbrado Público - RETILAP
 
     p.mb-4 Es un documento donde se establecen los requisitos y medidas que deben cumplir los sistemas de iluminación y alumbrado público, tendientes a garantizar los niveles y calidades de la energía lumínica requerida en la actividad visual, la seguridad en el abastecimiento energético, la protección del consumidor y la preservación del medio ambiente; previniendo, minimizando o eliminando los riesgos originados por la instalación y uso de sistemas de iluminación. Adicionalmente, señala las exigencias y especificaciones mínimas para que las instalaciones de iluminación garanticen la seguridad y confort con base en su buen diseño y desempeño operativo, así como los requisitos de los productos empleados en las mismas.
@@ -99,7 +99,7 @@
             .anexo__texto
               p <b>Enlace web.</b> Para profundizar en el tema, en el siguiente enlace podrá descargar la última versión vigente del RETILAP (30 de marzo de 2010 sin ajustes)
 
-    #t_1_3.titulo-segundo
+    #t_1_3.titulo-segundo.color-acento-botones
       h2 1.3  Código Eléctrico Colombiano NTC 2050
 
     p.mb-4 Es un documento de carácter técnico elaborado por el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC) y cuyo objetivo es la salvaguardia de las personas y de los bienes contra los riesgos que pueden surgir por el uso de la electricidad y que no pretende marcar especificaciones de diseño ni de ser un manual de instrucciones para personal no calificado. Antes de la entrada en vigencia del RETIE, era el marco normativo de referencia para los organismos con jurisdicción legal sobre las instalaciones eléctricas. Cuando el Gobierno Nacional permitió a las empresas de derecho privado acceder a la propiedad de infraestructura del sector eléctrico, se eliminó la obligatoriedad de cumplimiento de las normas técnicas y se adoptó el concepto de reglamento técnico, donde por definición no se pueden crear obstáculos innecesarios al comercio y cualquier restricción debe referirse sólo a objetivos legítimos como la protección de la vida y salud humana, de la vida animal y vegetal y del medio ambiente. Sin embargo, como ya se mencionó, el RETIE en el numeral 27.1 establece el contenido de los capítulos uno al siete y el del diez de la NTC 2050, primera actualización (1998), como de obligatorio cumplimiento.
@@ -107,8 +107,8 @@
 
     SlyderB.mb-5(:datos="datosSlyder3")
 
-    #t_1_4.titulo-segundo
-      h2 1.4  Lineamientos de SST para las actividades en el sector eléctrico (Resolución 5018 de 2019)
+    #t_1_4.titulo-segundo.color-acento-botones
+      h2 1.4 Lineamientos de SST para las actividades en el sector eléctrico (Resolución 5018 de 2019)
 
     p.mb-5 Está organizado en títulos y capítulos así:
 
@@ -159,7 +159,7 @@ export default {
       {
         titulo: 'Capítulo 5 (artículos 22.1 al 22.13)',
         texto:
-          '<b>Requisitos para el proceso de transmisión.</b><br>En este capítulo se establecen los requisitos que deben cumplir las líneas eléctricas aéreas de alta y extra alta tensión de corriente alterna trifásica a 60 Hz de frecuencia nominal.<br><br><h3>Capítulo 6 (artículos 23 al 24)</h3><b>Requisitos para el proceso de transformación (subestaciones).</b><br>En este capítulo se establecen los requisitos que deben cumplir las subestaciones con tensiones nominales superiores a 1 kV, entendiéndose por subestación a el conjunto de equipos utilizados para transferir el flujo de energía en un sistema de potencia, garantizar la seguridad del sistema por medio de dispositivos automáticos de protección y para redistribuir el flujo de energía a través de rutas alternas durante contingencias.',
+          '<b>Requisitos para el proceso de transmisión.</b><br>En este capítulo se establecen los requisitos que deben cumplir las líneas eléctricas aéreas de alta y extra alta tensión de corriente alterna trifásica a 60 Hz de frecuencia nominal.<br><br><h3>Capítulo 6 (artículos 23 al 24)</h3><b>Requisitos para el proceso de transformación (subestaciones).</b><br>En este capítulo se establecen los requisitos que deben cumplir las subestaciones con tensiones nominales superiores a 1 kV, entendiéndose por subestación al conjunto de equipos utilizados para transferir el flujo de energía en un sistema de potencia, garantizar la seguridad del sistema por medio de dispositivos automáticos de protección y para redistribuir el flujo de energía a través de rutas alternas durante contingencias.',
         imagen: require('@/assets/curso/tema1/img06.png'),
       },
       {
@@ -177,7 +177,7 @@ export default {
       {
         titulo: 'Capítulo 11 (artículos 36 al 37)',
         texto:
-          '<b>Vigilancia, control y régimen sancionatorio.</b><br>En este capítulo se establecen las entidades encargadas de la vigilancia y control del cumplimiento del RETIE y las sanciones aplicables en caso de incumplimiento<br><br><h3>Capítulo 12 (artículos 38.1 al 38.4)</h3><b>Disposiciones transitorias.</b><br>Aquí, se establecen los periodos de tiempo a partir de la entrada en vigencia del RETIE para la exigencia del cumplimiento de algunos requisitos.<br><br><h3>Capítulo 13 (artículo 39)</h3><b>Revisión y actualización.</b><br>Se establece que el Ministerio de Minas y Energía de Colombia es el órgano competente para la elaboración, revisión, actualización, interpretación y modificación del RETIE, lo cual lo podrá hacer de oficio o por solicitud de terceros .',
+          '<b>Vigilancia, control y régimen sancionatorio.</b><br>En este capítulo se establecen las entidades encargadas de la vigilancia y control del cumplimiento del RETIE y las sanciones aplicables en caso de incumplimiento<br><br><h3>Capítulo 12 (artículos 38.1 al 38.4)</h3><b>Disposiciones transitorias.</b><br>Aquí, se establecen los periodos de tiempo a partir de la entrada en vigencia del RETIE para la exigencia del cumplimiento de algunos requisitos.<br><br><h3>Capítulo 13 (artículo 39)</h3><b>Revisión y actualización.</b><br>Se establece que el Ministerio de Minas y Energía de Colombia es el órgano competente para la elaboración, revisión, actualización, interpretación y modificación del RETIE, lo cual lo podrá hacer de oficio o por solicitud de terceros.',
         imagen: require('@/assets/curso/tema1/img09.png'),
       },
     ],
@@ -271,7 +271,7 @@ export default {
       {
         titulo: 'Capítulo 7 (secciones 700 a 780)',
         texto:
-          '<b>Condiciones especiales.</b><br>En este capítulo se establecen los requisitos de instalación y alambrado de equipos asociados a condiciones operativas especiales como sistemas de emergencia y reserva, de más de 600 V y menos de 50 V nominales. de instrumentación, control remoto y señalización, sistemas de alarma contra incendios y fibra óptica.',
+          '<b>Condiciones especiales.</b><br>En este capítulo se establecen los requisitos de instalación y alambrado de equipos asociados a condiciones operativas especiales como sistemas de emergencia y reserva, de más de 600 V y menos de 50 V nominales, de instrumentación, control remoto y señalización, sistemas de alarma contra incendios y fibra óptica.',
         imagen: require('@/assets/curso/tema1/img24.png'),
       },
       {
