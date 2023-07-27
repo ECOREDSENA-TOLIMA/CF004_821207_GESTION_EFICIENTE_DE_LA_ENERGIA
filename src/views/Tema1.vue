@@ -8,21 +8,22 @@
       h1 Normatividad eléctrica
 
     .row.mb-5
-      .col-lg-1
-      .col-lg-10
+      .col-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El principio de la conservación de la energía establece que esta no se crea ni se destruye, solo se transforma y este proceso ocurre de forma natural. La forma de energía que presenta más procesos de conversión directa a otras formas de energía es la eléctrica y por esta razón el desarrollo tecnológico de nuestra civilización ha estado ligado al descubrimiento de las leyes físicas que gobiernan dichas transformaciones. Resulta contradictorio que en la misma medida que hemos mejorado nuestra calidad de vida al incorporar al uso cotidiano los aparatos desarrollados con las nuevas tecnologías, también hemos aumentado los riesgos de ocasionar daños a la vida y al medio ambiente por exposición a magnitudes de tensión y corriente eléctrica superiores a las normales en los procesos biológicos.
+            p.mb-0 El principio de la conservación de la energía establece que esta no se crea ni se destruye, solo se transforma y este proceso ocurre de forma natural. La forma de energía que presenta más procesos de conversión directa a otras formas de energía es la eléctrica y por esta razón el desarrollo tecnológico de nuestra civilización ha estado ligado al descubrimiento de las leyes físicas que gobiernan dichas transformaciones. 
+              br
+              | Resulta contradictorio que en la misma medida que hemos mejorado nuestra calidad de vida al incorporar al uso cotidiano los aparatos desarrollados con las nuevas tecnologías, también hemos aumentado los riesgos de ocasionar daños a la vida y al medio ambiente por exposición a magnitudes de tensión y corriente eléctrica superiores a las normales en los procesos biológicos.
       .col-lg-1
 
     .row.mb-5
       .col-lg-1
       .col-lg-10
         .cajon.color-primario.p-4         
-          p.mb-0 Y como la protección de la vida es un deber del Estado consagrado en el artículo 2 de la Constitución Política de Colombia, el Ministerio de Minas y Energía como máxima autoridad en materia energética, adoptó los reglamentos técnicos orientados a garantizar la protección de la vida de las personas contra los riesgos que puedan provenir de los bienes y servicios relacionados con el sector a su cargo
+          p.mb-0 Y como la protección de la vida es un deber del Estado consagrado en el artículo 2 de la Constitución Política de Colombia, el Ministerio de Minas y Energía como máxima autoridad en materia energética, adoptó los reglamentos técnicos orientados a garantizar la protección de la vida de las personas contra los riesgos que puedan provenir de los bienes y servicios relacionados con el sector a su cargo.
       .col-lg-1
 
     #t_1_1.titulo-segundo.color-acento-botones
@@ -38,7 +39,7 @@
       .col-lg-10
         .cajon.color-acento-botones.p-4
           .h5 Requisitos para instalaciones de uso final 
-          p Mayor detalle del capítulo 8 (Artículos 27 al 30) de RETIE donde se establecen los requisitos que deben cumplir las instalaciones eléctricas destinadas a la conexión de equipos o aparatos para el uso final de la electricidad y en todo tipo de construcciones, ya sean de carácter público o privado
+          p Mayor detalle del capítulo 8 (Artículos 27 al 30) de RETIE donde se establecen los requisitos que deben cumplir las instalaciones eléctricas destinadas a la conexión de equipos o aparatos para el uso final de la electricidad y en todo tipo de construcciones, ya sean de carácter público o privado.
       .col-lg-1      
 
 
@@ -66,13 +67,15 @@
         p <b>27.6.</b> En este numeral se clasifican las instalaciones de uso final en <i><u><b>básicas, provisionales y especiales.</b></u></i>
 
       .tarjeta.t1-div1.p-3(x="70%" y="7%" numero="+")        
-        p Se definen las <b>instalaciones básicas</b> (aplican capítulos 1 a 4 de la NTC 2050) como aquellas de baja complejidad y riesgo, las redes externas de baja tensión particulares y públicas. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.1
+        p Se definen las <b>instalaciones básicas</b> (aplican capítulos 1 a 4 de la NTC 2050) como aquellas de baja complejidad y riesgo, las redes externas de baja tensión particulares y públicas. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.1.
 
       .tarjeta.t1-div1.p-3(x="69%" y="27%" numero="+")
-        p Se definen las <b>instalaciones provisionales</b> (aplica sección 305 de la NTC 2050) como aquellas que se construyen para suministrar el servicio de energía a un proyecto en construcción, con un tiempo de vigencia hasta la energización definitiva, la terminación de la construcción, o para el suministro temporal de energía a instalaciones transitorias como ferias o espectáculos, montajes de equipos, demoliciones y proyectos de investigación, tales como pruebas sísmicas o perforaciones exploratorias. La Condición de provisionalidad se otorgará para periodos no mayores a seis meses, prorrogables según el criterio del operador de red (OR) o quien preste el servicio, previa solicitud del usuario. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.2
+        p Se definen las <b>instalaciones provisionales</b> (aplica sección 305 de la NTC 2050) como aquellas que se construyen para suministrar el servicio de energía a un proyecto en construcción, con un tiempo de vigencia hasta la energización definitiva, la terminación de la construcción, o para el suministro temporal de energía a instalaciones transitorias como ferias o espectáculos, montajes de equipos, demoliciones y proyectos de investigación, tales como pruebas sísmicas o perforaciones exploratorias. 
+        p.mb-0 La Condición de provisionalidad se otorgará para periodos no mayores a seis meses, prorrogables según el criterio del operador de red (OR) o quien preste el servicio, previa solicitud del usuario. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.2.
 
       .tarjeta.t1-div1.p-3(x="61.5%" y="51.5%" numero="+")        
-        p Se definen las <b>instalaciones especiales</b> (aplica sección 305 de la NTC 2050) como aquellas que por estar localizadas en ambientes clasificados como peligrosos o por alimentar equipos o sistemas complejos, presentan mayor probabilidad de riesgo que una instalación básica y, por tanto, requieren de medidas especiales, para mitigar o eliminar tales riesgos. Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.3.1 para instalaciones en lugares clasificados como peligrosos, en el numeral 28.3.2 para instalaciones e instituciones de asistencia médica, en el numeral 28.3.3 para lugares con alta concentración de personas, en el numeral 28.3.4 a 28.3.10  para edificaciones prefabricadas, de uso agrícola, viviendas móviles, casas flotantes, equipos especiales, piscinas y sistemas solares fotovoltaicos, en el numeral 28.3.11 para sistemas contra incendio, en el numeral 28.3.12 para sistemas de emergencia, en el numeral 28.3.13 para otros sistemas de suministro, en el artículo 29 para instalaciones en minas y finalmente en el artículo 30 para instalaciones en minas subterráneas.
+        p Se definen las <b>instalaciones especiales</b> (aplica sección 305 de la NTC 2050) como aquellas que por estar localizadas en ambientes clasificados como peligrosos o por alimentar equipos o sistemas complejos, presentan mayor probabilidad de riesgo que una instalación básica y, por tanto, requieren de medidas especiales, para mitigar o eliminar tales riesgos. 
+        p.mb-0 Los requisitos adicionales aplicables a este tipo de instalaciones se establecen en el numeral 28.3.1 para instalaciones en lugares clasificados como peligrosos, en el numeral 28.3.2 para instalaciones e instituciones de asistencia médica, en el numeral 28.3.3 para lugares con alta concentración de personas, en el numeral 28.3.4 a 28.3.10  para edificaciones prefabricadas, de uso agrícola, viviendas móviles, casas flotantes, equipos especiales, piscinas y sistemas solares fotovoltaicos, en el numeral 28.3.11 para sistemas contra incendio, en el numeral 28.3.12 para sistemas de emergencia, en el numeral 28.3.13 para otros sistemas de suministro, en el artículo 29 para instalaciones en minas y finalmente en el artículo 30 para instalaciones en minas subterráneas.
     .row.mb-5
       .col-lg-5
       .col-lg-7        

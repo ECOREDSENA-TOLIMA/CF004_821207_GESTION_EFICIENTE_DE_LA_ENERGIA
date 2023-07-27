@@ -160,14 +160,16 @@
       h2 2.2 Agentes del mercado de la energía eléctrica
 
     .row.mb-4
-      .col-lg-1
-      .col-lg-10
+      .col-12
         .bloque-texto-g.color-secundario.t2_img1.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.t2_div1(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img13.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Seguramente ha escuchado hablar del término Mercado. Normalmente, cuando hablamos de mercado nos imaginamos un lugar con acceso público o puestos de venta donde podemos comprar todo tipo de productos. Pues bien, para la energía eléctrica existe un mercado en donde se hacen todas las compras y ventas de energía. La gran diferencia es que para la energía existen mayores regulaciones y controles al ser un bien de primera necesidad y también que el acceso a este mercado no es público, sino que se realiza a través de otras entidades. Es decir, para comprar la energía en nuestros hogares no es posible que vayamos al mercado de energía directamente, sino que debemos comprarla a un agente que en este caso se llama comercializador. Para entender mejor cómo funcionan los agentes en el mercado de energía eléctrica, miraremos con más detalle cada uno de ellos y sus funciones principales.
+            p.mb-0 Seguramente ha escuchado hablar del término Mercado. Normalmente, cuando hablamos de mercado nos imaginamos un lugar con acceso público o puestos de venta donde podemos comprar todo tipo de productos. Pues bien, para la energía eléctrica existe un mercado en donde se hacen todas las compras y ventas de energía. 
+            br 
+            br 
+            | La gran diferencia es que para la energía existen mayores regulaciones y controles al ser un bien de primera necesidad y también que el acceso a este mercado no es público, sino que se realiza a través de otras entidades. Es decir, para comprar la energía en nuestros hogares no es posible que vayamos al mercado de energía directamente, sino que debemos comprarla a un agente que en este caso se llama comercializador. Para entender mejor cómo funcionan los agentes en el mercado de energía eléctrica, miraremos con más detalle cada uno de ellos y sus funciones principales.
       .col-lg-1
 
     .row.mb-5
@@ -250,7 +252,7 @@
         p.mb-5 Son los consumidores finales del servicio de energía eléctrica. Los usuarios en Colombia son clasificados en dos grandes grupos, según los niveles de consumo que presenten:
          
         div.t2_div4.p-4.mb-5
-          h4 Usuarios No Regulados: 
+          h4 Usuarios no regulados: 
           .row
             .col-lg-7
               p.mb-4 En esta categoría se encuentran por mencionar algunos, las industrias medianas y grandes, grandes clínicas y hospitales, grandes centros de educación, centros comerciales, grandes hoteles y en general todas las entidades que cumplen con la condición de consumo mayor a 55.000 kWh al mes o demanda máxima mayor a 100 kW. Estos valores límite pueden cambiar dependiendo de lo que determine la CREG. La ventaja de pertenecer a esta categoría es que estos usuarios pueden negociar parte de la tarifa de energía, permitiendo ser más competitivos.
@@ -260,7 +262,7 @@
                 img(src='@/assets/curso/tema2/img18.svg')
 
         div.t2_div4.p-4.mb-4
-          h4 Usuarios Regulados:  
+          h4 Usuarios regulados:  
           .row
             .col-lg-7.d-flex.align-items-center
               p En esta categoría se encuentran por mencionar algunos, los hogares, los pequeños y medianos comercios, la pequeña industria, y en general las entidades que no cumplen con las condiciones para pertenecer a la categoría de No Regulados. La tarifa de energía para esta categoría de usuarios es como su nombre lo dice “Regulada” por la CREG. Normalmente esta tarifa es más alta comparada con la tarifa de los No Regulados.
