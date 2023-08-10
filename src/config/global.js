@@ -188,7 +188,7 @@ export default {
         'Ministerio de Minas y Energía de Colombia. Resolución Número 181331 de 2009 y anexo. Por la cual se expide el Reglamento Técnico de Iluminación y Alumbrado Público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009.',
       tipo: 'Documento legal',
       link:
-        'https://www.redjurista.com/Documents/resolucion_180540_de_2010_ministerio_de_minas_y_energia.aspx#/',
+        'https://www.conte.org.co/wpfd_file/resolucion-no-181331-del-6-de-agosto-de-2009/',
     },
     {
       tema: 'Caracterización del sector eléctrico colombiano',
