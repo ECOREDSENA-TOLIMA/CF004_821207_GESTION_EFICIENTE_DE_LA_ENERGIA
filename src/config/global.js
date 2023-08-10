@@ -195,7 +195,7 @@ export default {
       referencia:
         'Servicio Nacional de Aprendizaje - SENA. (2013). Caracterización del sector eléctrico colombiano. Recuperado el 6 de julio del 2021 del repositorio SENA.',
       tipo: 'Publicación Oficial',
-      link: 'https://hdl.handle.net/11404/2138',
+      link: 'https://repositorio.sena.edu.co/handle/11404/2138',
     },
     {
       tema: 'Organización del sector',

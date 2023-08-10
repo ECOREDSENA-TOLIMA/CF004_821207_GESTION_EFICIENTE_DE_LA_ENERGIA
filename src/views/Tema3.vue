@@ -12,13 +12,13 @@
         figure
           img(src='@/assets/curso/tema3/img01.svg')
       .col-lg-6.d-flex
-        .cajon.color-acento-botones.p-5   
-          p Un Sistema de Puesta a Tierra - SPAT, es el conjunto de conductores, electrodos y compuestos químicos reductores de la resistividad volumétrica del suelo circundante al electrodo, que se instalan como medio de descarga a tierra de la energía transitoria asociada a sobretensiones provocadas en la red por impulsos atmosféricos (rayos) o por impulsos de maniobras de cierre y/o apertura de interruptores. Bajo este contexto y de acuerdo a la ley de Ohm, se deduce que un bajo valor de la resistencia de puesta a tierra es siempre deseable para disminuir la máxima elevación de potencial o GPR (Ground Potential Rise), en caso de circulación de corrientes de falla.
+        .cajon.color-acento-botones.p-4   
+          p.mb-0 Un Sistema de Puesta a Tierra - SPAT, es el conjunto de conductores, electrodos y compuestos químicos reductores de la resistividad volumétrica del suelo circundante al electrodo, que se instalan como medio de descarga a tierra de la energía transitoria asociada a sobretensiones provocadas en la red por impulsos atmosféricos (rayos) o por impulsos de maniobras de cierre y/o apertura de interruptores. Bajo este contexto y de acuerdo a la ley de Ohm, se deduce que un bajo valor de la resistencia de puesta a tierra es siempre deseable para disminuir la máxima elevación de potencial o GPR (Ground Potential Rise), en caso de circulación de corrientes de falla.
 
     .row.mb-5
       .col-lg-6.d-flex
-        .cajon.color-primario.p-5   
-          p El propósito de la instalación de este sistema es que los valores máximos de las tensiones de paso (diferencia de potencial que durante una falla se presenta entre dos puntos de la superficie del terreno, separados por una distancia de un paso), de contacto (diferencia de potencial que durante una falla se presenta entre una estructura metálica puesta a tierra y un punto de la superficie del terreno a una distancia de un metro) y transferida (es un caso especial de tensión de contacto, donde un potencial es conducido hasta un punto remoto respecto a la subestación o a una puesta a tierra) a que puedan estar sometidos los seres humanos, no superen los umbrales de soportabilidad.
+        .cajon.color-primario.p-4 
+          p.mb-0 El propósito de la instalación de este sistema es que los valores máximos de las tensiones de paso (diferencia de potencial que durante una falla se presenta entre dos puntos de la superficie del terreno, separados por una distancia de un paso), de contacto (diferencia de potencial que durante una falla se presenta entre una estructura metálica puesta a tierra y un punto de la superficie del terreno a una distancia de un metro) y transferida (es un caso especial de tensión de contacto, donde un potencial es conducido hasta un punto remoto respecto a la subestación o a una puesta a tierra) a que puedan estar sometidos los seres humanos, no superen los umbrales de soportabilidad.
       .col-lg-6
         figure
           img(src='@/assets/curso/tema3/img02.svg')
@@ -28,7 +28,7 @@
     TabsA.color-acento-botones.mb-5    
       .tarjeta.t2_div3.p-4(titulo="Electrodo de puesta a tierra")
         h4 Electrodo de puesta a tierra
-        p.mb-5 Es un objeto conductor de material y dimensiones acorde a la tabla 15.2 del RETIE, generalmente una varilla de  de diámetro por 2,4 metros de longitud de cobre puro o de acero recubierto por una chaqueta de cobre que se entierra de manera vertical hasta que el extremo superior sobresalga 15 cm sobre el nivel del suelo.
+        p.mb-5 Es un objeto conductor de material y dimensiones acorde a la tabla 15.2 del RETIE, generalmente una varilla de ⅝`` de diámetro por 2,4 metros de longitud de cobre puro o de acero recubierto por una chaqueta de cobre que se entierra de manera vertical hasta que el extremo superior sobresalga 15 cm sobre el nivel del suelo.
         .row
           .col-lg-3
           .col-lg-6
