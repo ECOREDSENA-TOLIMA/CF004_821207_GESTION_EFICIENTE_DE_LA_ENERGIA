@@ -20,8 +20,8 @@
     p.mb-5 En respuesta a este mandato constitucional, el Estado colombiano promulgó la Ley 142 de servicios públicos domiciliarios y la Ley 143, a través de las cuales se separaron las actividades del sector eléctrico y se adoptó la estructura organizacional mostrada en la siguiente figura.
 
     .mb-5
-      div.BorTit.mb-3.ms-3
-        p.mb-0 <b>Figura 1.</b> <i>Estructura organizacional del sector eléctrico colombiano</i>
+      .titulo-sexto.color-acento-contenido
+        p.titulo.pb-0.mb-0 #[b Figura 1.] #[i Estructura organizacional del sector eléctrico colombiano] 
       figure
         img(src='@/assets/curso/tema2/img02.svg')  
         figcaption Nota. Adaptada de documento SENA. Caracterización del sector eléctrico colombiano. 

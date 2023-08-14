@@ -9,6 +9,8 @@
 
     .row.mb-4
       .col-lg-6
+        .titulo-sexto.color-acento-contenido.mb-1
+          p.titulo.pb-0.mb-0 #[b Figura 2.] #[i Sistema de Puesta a Tierra - SPAT] 
         figure
           img(src='@/assets/curso/tema3/img01.svg')
       .col-lg-6.d-flex
@@ -20,6 +22,8 @@
         .cajon.color-primario.p-4 
           p.mb-0 El propósito de la instalación de este sistema es que los valores máximos de las tensiones de paso (diferencia de potencial que durante una falla se presenta entre dos puntos de la superficie del terreno, separados por una distancia de un paso), de contacto (diferencia de potencial que durante una falla se presenta entre una estructura metálica puesta a tierra y un punto de la superficie del terreno a una distancia de un metro) y transferida (es un caso especial de tensión de contacto, donde un potencial es conducido hasta un punto remoto respecto a la subestación o a una puesta a tierra) a que puedan estar sometidos los seres humanos, no superen los umbrales de soportabilidad.
       .col-lg-6
+        .titulo-sexto.color-acento-contenido.mb-1
+          p.titulo.pb-0.mb-0 #[b Figura 3.] #[i Diferencia de potencial] 
         figure
           img(src='@/assets/curso/tema3/img02.svg')
 
